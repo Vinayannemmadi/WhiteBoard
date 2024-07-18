@@ -1,0 +1,16 @@
+.textElementBox{
+    position: fixed;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    resize: none;
+    padding: 0;
+    margin:0;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    font-family:'Times New Roman', Times, serif;
+    color:inherit;
+    line-height: inherit;
+    font-family: Caveat;
+  }
