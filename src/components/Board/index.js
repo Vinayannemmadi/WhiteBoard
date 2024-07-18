@@ -106,7 +106,7 @@ const Board= ()=> {
                 toolboxState[activeToolItem].stroke,
                 toolboxState[activeToolItem].size,)}
       />}
-      <canvas ref={canvasRef} width={1000} height={2000}
+      <canvas ref={canvasRef} width={2000} height={1000}
         id="canvas"
         onMouseDown={handleBoardMouseDown}
         onMouseMove={handleBoardMouseMove}
