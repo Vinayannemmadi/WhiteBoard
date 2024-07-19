@@ -81,7 +81,7 @@ const boardReducer = (state, action) => {
                         ...newElements[index].points,
                         {x:clientX, y:clientY}
                     ];
-                    newElements.path=new Path2D(getSvgPathFromStroke(getStroke(newElements[index].points)));
+                    newElements[index].path=new Path2D(getSvgPathFromStroke(getStroke(newElements[index].points)));
                     return { ...state, elements: newElements };
                 }
                     
